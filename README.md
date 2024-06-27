@@ -5,7 +5,7 @@
 ## My Setup
 Acer Nitro 5 AN515-55 (Core i5-10300H, Nvidia RTX3060, 512GB, 16GB)\
 Nobara 40 ([install Nobara 39 here](https://nobaraproject.org/download-nobara/) [then manually udpate here](https://youtu.be/6dvb27JeQB0?t=911))\
-Windows 10 (dual boot)\
+Windows 10 (dual boot)
 
 ## Install Hyprland
 [Guide here](https://wiki.hyprland.org/Getting-Started/Installation/)
@@ -21,4 +21,4 @@ blueman-applet (Bluetooth tray icon)\
 brightnessctl (brightness control)\
 wpctl (volume control)\
 auto-cpufreq & powertop (power management)\
-fcitx5 (pinyin input support)\
+fcitx5 (pinyin input support)
