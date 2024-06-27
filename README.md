@@ -1,6 +1,6 @@
 # My Personal Hyprland Config
 ## Screenshot
-![screenshot_2024-06-27_15-03-20](https://github.com/HuAi02/hyprland-configs/assets/103740088/8c2e80c4-d3c0-4c09-9963-2f320f3336f0)\
+![screenshot_2024-06-27_15-03-20](https://github.com/HuAi02/hyprland-configs/assets/103740088/8c2e80c4-d3c0-4c09-9963-2f320f3336f0)
 
 ## My Setup
 Acer Nitro 5 AN515-55 (Core i5-10300H, Nvidia RTX3060, 512GB, 16GB)\
