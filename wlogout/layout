@@ -1,10 +1,4 @@
 {
-    "label" : "lock",
-    "action" : "exec hyprlock",
-    "text" : "Lock",
-    "keybind" : "l"
-}
-{
     "label" : "shutdown",
     "action" : "systemctl poweroff",
     "text" : "Shutdown",
@@ -15,4 +9,10 @@
     "action" : "systemctl reboot",
     "text" : "Reboot",
     "keybind" : "r"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit",
+    "text" : "Logout",
+    "keybind" : "e"
 }
