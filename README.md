@@ -4,11 +4,14 @@
 
 ## My Setup
 Acer Nitro 5 AN515-55 (Core i5-10300H, Nvidia RTX3060, 512GB, 16GB)\
-Nobara 40 ([install Nobara 39 here](https://nobaraproject.org/download-nobara/) [then manually udpate here](https://youtu.be/6dvb27JeQB0?t=911))\
+Arch Linux ([Install guide](https://github.com/powerdollkirby/archinstall))\
 Windows 10 (dual boot)
 
 ## Install Hyprland
 [Guide here](https://wiki.hyprland.org/Getting-Started/Installation/)
+
+## SDDM Theme
+[Aerial Theme](https://github.com/3ximus/aerial-sddm-theme)
 
 ## Dependencies
 waybar (status bar)\
