@@ -37,5 +37,4 @@ qt5ct
 
 ## Grub theme:
 [Arch theme btw](https://github.com/AdisonCavani/distro-grub-themes)\
-grub-customizer\
-+ custom HSR Jingliu live wallpaper
+grub-customizer w/ custom HSR Jingliu live wallpaper
