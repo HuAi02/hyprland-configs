@@ -1,52 +1,75 @@
 window {
     margin: 0px;
-    border: 2px solid;
-    border-color: rgba(0,0,0,0);
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.8);
-    opacity: 1;
-    font-size: 18px;
+    border: 5px solid #1e1e2e;
+    background-color: #cdd6f4;
+    border-radius: 0px;
 }
 
 #input {
-    margin: 12px 12px;
-    border: solid 1px;
-    border-color: white;
-    border-radius: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 18px;
+    padding: 4px;
+    margin: 4px;
+    padding-left: 20px;
+    border: none;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #1e1e2e;
+   	outline: none;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 2px;
+}
+#input:focus {
+    border: 0px solid #1e1e2e;
+    margin-bottom: 0px;
 }
 
 #inner-box {
-    margin: 12px;
-    border: none;
-    background-color: rgba(0,0,0,0);
-    font-size: 18px;
+    margin: 4px;
+    border: 10px solid #1e1e2e;
+    color: #cdd6f4;
+    font-weight: bold;
+    background-color: #1e1e2e;
+    border-radius: 15px;
 }
 
 #outer-box {
-    margin: 12px;
+    margin: 0px;
     border: none;
-    background-color: rgba(0,0,0,0);
-    font-size:18px;
+    border-radius: 15px;
+    background-color: #1e1e2e;
 }
 
 #scroll {
-    margin: 0px;
+    margin-top: 5px;
     border: none;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    /* background: rgb(255,255,255); */
 }
 
-#text {
-    margin: 10px;
+#img:selected {
+    background-color: #89b4fa;
+    border-radius: 15px;
+}
+
+#text:selected {
+    color: #cdd6f4;
+    margin: 0px 0px;
     border: none;
-    color: #ffffff;
-    font-size: 18px;
+    border-radius: 15px;
+    background-color: #89b4fa;
+}
+
+#entry {
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
 }
 
 #entry:selected {
-    background-color: #4d75d1;
-    color: #ffffff;
-    border-style: solid;
-    border-radius: 10px;
+    margin: 0px 0px;
+    border: none;
+    border-radius: 15px;
+    background-color: #89b4fa;
 }
