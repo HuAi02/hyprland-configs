@@ -15,7 +15,7 @@ Windows 10 (dual boot)
 
 ## Dependencies
 waybar (status bar)\
-hyprpaper (wallpaper)\
+swww (wallpaper)\
 hypridle (idle management)\
 swaylock (lockscreen)\
 wlogout (power menu)\

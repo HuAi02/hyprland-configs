@@ -22,8 +22,8 @@
     "idle_inhibitor": {
         "format": "{icon}",
         "format-icons": {
-            "activated": "",
-            "deactivated": ""
+            "activated": " ",
+            "deactivated": " "
         }
     },
     "tray": {
@@ -38,11 +38,11 @@
     "cpu": {
         "format": "CPU {usage}% ",
         "tooltip": false,
-        "on-click": "io.missioncenter.MissionCenter"
+        "on-click": "kitty btop"
     },
     "memory": {
         "format": "Memory {}% ",
-        "on-click": "io.missioncenter.MissionCenter"
+        "on-click": "kitty btop"
     },
     "pulseaudio": {
         "scroll-step": 1, // %, can be a float
@@ -50,7 +50,7 @@
         "format-muted": "Muted{format_source}",
         "format-source": "        Mic {volume}%",
         "format-source-muted": "        Muted",
-        "on-click": "easyeffects"
+        "on-click": "com.github.wwmm.easyeffects"
     }
     // "hyprland/workspaces": {
     //     "format": "{name}: {icon}",

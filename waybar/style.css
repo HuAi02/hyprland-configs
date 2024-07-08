@@ -122,7 +122,7 @@ label:focus {
 
 #tray {
     /*background-color: #2d3436;*/
-    background-color: white;
+    background-color: black;
     color: black;
 }
 
@@ -139,7 +139,7 @@ label:focus {
   
 #tray *:hover * {
     font-size: 12px;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
   
