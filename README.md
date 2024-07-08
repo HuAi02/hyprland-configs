@@ -11,30 +11,32 @@ Windows 10 (dual boot)
 [Guide here](https://wiki.hyprland.org/Getting-Started/Installation/)
 
 ## SDDM Theme
-[Aerial Theme](https://github.com/3ximus/aerial-sddm-theme)
+[Aerial Theme](https://github.com/3ximus/aerial-sddm-theme) w/ custom HSR Jingliu live wallpaper
 
 ## Dependencies
 waybar (status bar)\
 hyprpaper (wallpaper)\
 hypridle (idle management)\
-hyprlock (lockscreen)\
+swaylock (lockscreen)\
 wlogout (power menu)\
 nm-applet (WiFi tray icon)\
 blueman-applet (Bluetooth tray icon)\
 brightnessctl (brightness control)\
 wpctl (volume control)\
 auto-cpufreq & powertop (power management)\
-fcitx5 (pinyin input support)
+fcitx5 & fcitx5-chinese-addon (pinyin input support)\
+grim & slurp (screenshot)
 
 ## For powertop:
 Do not toggle mouse suspend to good or you'll suffer
 
 ## For app dark themes:
-kvantum-manager\
 nwg-look\
+lxappearance\
 qt6ct\
-qt5ct
+qt5ct\
+xdg-desktop-portal-gtk (for Gnome apps)
 
 ## Grub theme:
 [Arch theme btw](https://github.com/AdisonCavani/distro-grub-themes)\
-grub-customizer w/ custom HSR Jingliu live wallpaper
+grub-customizer
