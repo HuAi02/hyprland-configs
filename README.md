@@ -1,6 +1,6 @@
 # My Personal Hyprland Config
 ## Screenshot
-![20250310_02h02m38s_grim](https://github.com/user-attachments/assets/65a1a8ff-8858-4149-9cd5-b579be1d15e8)
+![20250406_02h55m46s_grim](https://github.com/user-attachments/assets/4cc15650-8007-47bc-81e6-96c86a60f2f2)
 
 ## My Setup
 [Acer Nitro 5 AN515-55](https://www.notebookcheck.net/Acer-Nitro-5-AN515-55-Laptop-Review-Price-to-performance-champ-with-an-RTX-3060.540607.0.html)\
@@ -11,10 +11,11 @@
 
 ## Dependencies
 ```
-waybar
+# Hyprland utilities
 hyprpaper
 hypridle
 hyprlock
+waybar
 wlogout
 tofi (previously wofi)
 dunst
@@ -23,14 +24,34 @@ blueman-applet
 brightnessctl
 wpctl
 pavucontrol
-tlp & powertop
-grim & slurp
+
+# CPU and fan control
+auto-cpufreq (previously tlp & powertop)
+nbfc
+
+# Screenshot
+grim
+slurp
+
+# Clipboard
 wlpaste
+
+# Preference
 nemo
 gwenview
 ```
-## For powertop:
-Do not toggle mouse suspend to good or you'll suffer
+
+## Nitro 5 keyboard backlight:
+Someone made a [module](https://github.com/JafarAkhondali/acer-predator-turbo-and-rgb-keyboard-linux-module)\
+Install as a service and it should work fine\
+Configuration autoset on boot (in hypr/autostart.conf)
+
+## Fan control:
+Use [nbfc](https://github.com/nbfc-linux/nbfc-linux) and set model to AN515-51 (it's compatible)\
+This sets to auto fan control:
+```
+nbfc set -a
+```
 
 ## For app dark themes:
 ```
